@@ -9,9 +9,9 @@ function About() {
 
             <div className="about-text">
                 <p>
-                    Hi! I'm <strong>Your Name</strong>, a passionate{' '}
+                    Hi! I'm <strong>Utkarsh Singh</strong>, a passionate{' '}
                     <strong>competitive programmer</strong> and{' '}
-                    <strong>backend developer</strong> based in [Your City], India.
+                    <strong>backend developer</strong> based in Vadodara, India.
                 </p>
                 <p>
                     I've been fascinated by mathematics and problem solving since

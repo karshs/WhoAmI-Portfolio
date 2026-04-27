@@ -1,19 +1,19 @@
 import './Contacts.css'
 
 const info = [
-    { label: 'Email', value: 'you@email.com' },
+    { label: 'Email', value: 'singhutkarsh187@gmail.com' },
     { label: 'Location', value: 'India · IST (UTC+5:30)' },
     { label: 'Response time', value: '< 24 hours' },
     { label: 'Preferred', value: 'Email / LinkedIn' },
 ]
 
 const socials = [
-    { label: 'GH', url: 'https://github.com/' },
-    { label: 'LI', url: 'https://linkedin.com/' },
-    { label: 'CF', url: 'https://codeforces.com/' },
-    { label: 'LC', url: 'https://leetcode.com/' },
-    { label: 'TW', url: 'https://twitter.com/' },
-    { label: 'IG', url: 'https://instagram.com/' },
+    { label: 'GH', url: 'https://github.com/karshs' },
+    { label: 'LI', url: 'https://www.linkedin.com/in/utkarsh-singh-jp/' },
+    { label: 'CF', url: 'https://codeforces.com/profile/karsh_' },
+    { label: 'LC', url: 'https://leetcode.com/karsh_S/' },
+    { label: 'TW', url: 'https://twitter.com/nameiskarsh' },
+    { label: 'IG', url: 'https://instagram.com/whokarsh' },
 ]
 
 function Contact() {

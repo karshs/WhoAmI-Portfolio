@@ -1,7 +1,7 @@
 import './Skills.css'
 
 const skills = {
-    Languages: ['C++', 'Python', 'JavaScript', 'Go', 'SQL'],
+    Languages: ['C++', 'Python', 'JavaScript', 'Java', 'SQL'],
     'Backend & Tools': ['Node.js', 'PostgreSQL', 'Redis', 'Docker', 'REST APIs', 'Git', 'Linux'],
     'CS Fundamentals': ['Data Structures', 'Algorithms', 'Dynamic Programming', 'Graph Theory', 'OOP'],
 }

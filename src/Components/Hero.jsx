@@ -18,16 +18,12 @@ function Hero() {
             </div>
 
             <div className="hero-content">
-                <p className="hero-greeting">// hello world</p>
-                <h1 className="hero-name">Your Name</h1>
+                <p className="hero-greeting">// Hey there , myself </p>
+                <h1 className="hero-name">Utkarsh</h1>
                 <p className="hero-title">
-                    Competitive Programmer &amp; <span>Backend Developer</span>
+                    Competitive Programmer &amp; <span>Backend Developer</span>  Based in Vadodara, India.
                 </p>
-                <p className="hero-desc">
-                    I solve problems — on platforms like Codeforces and LeetCode,
-                    and in production systems. I build clean, efficient backends and
-                    love the intersection of algorithms and real-world engineering.
-                </p>
+
 
                 <div className="hero-cta">
                     <a href="#projects">

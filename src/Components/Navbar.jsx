@@ -3,7 +3,7 @@ import './Navbar.css'
 function Navbar({ toggleTheme, theme }) {
     return (
         <nav className="navbar">
-            <div className="nav-logo">&lt;YN /&gt;</div>
+            <div className="nav-logo">&lt;Karsh/&gt;</div>
 
             <ul className="nav-links">
                 <li><a href="#about">about</a></li>
@@ -12,7 +12,7 @@ function Navbar({ toggleTheme, theme }) {
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#contact">contact</a></li>
                 <li>
-                    <a href="YOUR_RESUME_LINK" target="_blank" rel="noreferrer">
+                    <a href="stilldre" target="_blank" rel="noreferrer">
                         <button className="btn-resume">resume ↗</button>
                     </a>
                 </li>

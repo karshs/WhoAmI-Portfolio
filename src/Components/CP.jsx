@@ -3,17 +3,24 @@ import './CP.css'
 const platforms = [
     {
         name: 'Codeforces',
-        handle: '@yourhandle',
+        handle: '@karsh_',
         rating: '1234',
-        rank: 'Specialist',
-        url: 'https://codeforces.com/profile/yourhandle',
+        rank: '(Max Rating) Pupil',
+        url: 'https://codeforces.com/profile/Karsh_',
     },
     {
         name: 'LeetCode',
-        handle: '@yourhandle',
-        rating: '1567',
-        rank: 'Top 20%',
-        url: 'https://leetcode.com/yourhandle',
+        handle: '@karshs',
+        rating: '1701',
+        rank: '(Max Rating) Top 13%',
+        url: 'https://leetcode.com/u/karsh_S/',
+    },
+    {
+        name: 'CodeChef',
+        handle: '@Karsh_',
+        rating: '1449',
+        rank: '(Max Rating) 2 Star',
+        url: 'https://www.codechef.com/users/taut_coder',
     },
 ]
 

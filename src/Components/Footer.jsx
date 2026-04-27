@@ -4,10 +4,10 @@ function Footer() {
     return (
         <footer>
             <p>
-                designed & built with <span className="footer-heart">♥</span> by Your Name
+                designed & built with <span className="footer-heart">♥</span> By Utkarsh
             </p>
             <p className="footer-sub">
-                © 2025 · open to opportunities
+                © 2026 · open to opportunities
             </p>
         </footer>
     )
