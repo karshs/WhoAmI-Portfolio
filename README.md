@@ -1,16 +1,11 @@
-# React + Vite
+## 👨‍💻 Utkarsh Singh's Dev Space
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Hey there myself **Utkarsh**, a Computer Science student and Backend Engineer based in **Vadodara, India**. 
 
-## React Compiler
+Currently, I'm deep-diving into **high-concurrency systems** and **distributed architectures** in backend systems. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ I’m constantly looking for ways to bridge the gap between "code that works" and "code that scales."
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Got feedback?** Whether it's a critique of my system design or a suggestion for a better DP approach, I’m all ears. Feel free to explore my projects or open an issue right here in the repository!
