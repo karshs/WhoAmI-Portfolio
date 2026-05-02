@@ -3,7 +3,7 @@ import './Navbar.css'
 function Navbar({ toggleTheme, theme }) {
     return (
         <nav className="navbar">
-            <div className="nav-logo">&lt;Karsh/&gt;</div>
+            <a href="#hero" className="nav-logo">&lt;Karsh/&gt;</a>
 
             <ul className="nav-links">
                 <li><a href="#about">about</a></li>

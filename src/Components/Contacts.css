@@ -41,3 +41,33 @@
     font-size: 0.88rem;
     color: var(--text-muted);
 }
+
+/* Social buttons with SVG logos */
+.contact-socials {
+    display: flex;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+}
+
+.contact-social-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg-card);
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: border-color 0.2s, color 0.2s, background 0.2s, transform 0.15s;
+}
+
+.contact-social-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(168, 255, 120, 0.04);
+    transform: translateY(-2px);
+}

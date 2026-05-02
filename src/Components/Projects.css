@@ -11,7 +11,7 @@
     padding: 1.8rem;
     transition: border-color 0.2s, transform 0.2s;
     display: flex;
-    align-items: stretch;
+    align-items: flex-end;
     gap: 1.5rem;
     overflow: hidden;
 }
@@ -40,23 +40,6 @@
     font-size: 1.5rem;
     color: var(--accent);
     opacity: 0.8;
-}
-
-.project-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.project-link {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    letter-spacing: 0.05em;
-    transition: color 0.2s;
-}
-
-.project-link:hover {
-    color: var(--accent);
 }
 
 .project-title {
@@ -90,17 +73,46 @@
     color: var(--text-muted);
 }
 
-/* Right: preview box */
+/* Right: links at top, preview at bottom */
+.project-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.6rem;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.project-link {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    transition: color 0.2s;
+}
+
+.project-link:hover {
+    color: var(--accent);
+}
+
+/* Preview box */
 .project-preview {
     width: 180px;
-    min-height: 130px;
+    height: 130px;
     flex-shrink: 0;
     border: 1px solid var(--border);
     border-radius: 6px;
     overflow: hidden;
     background: var(--bg);
-    align-self: center;
+    display: block;
     transition: border-color 0.3s, transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
 }
 
 .project-card:hover .project-preview {
@@ -121,7 +133,7 @@
     align-items: center;
     justify-content: center;
     color: var(--border);
-    transition: border-color 0.3s, color 0.3s, transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: default;
 }
 
 .project-card:hover .project-preview--empty {

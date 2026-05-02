@@ -22,70 +22,71 @@
     position: absolute;
     font-family: var(--font-mono);
     color: var(--accent);
-    opacity: 0.07;
+    opacity: 0.18;
     font-size: 1.4rem;
     animation: floatUp 12s linear infinite;
     user-select: none;
+    text-shadow: 0 0 12px rgba(168, 255, 120, 0.35);
 }
 
 .math-symbol:nth-child(1) {
     left: 5%;
     animation-delay: 0s;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .math-symbol:nth-child(2) {
     left: 12%;
     animation-delay: 2s;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
 }
 
 .math-symbol:nth-child(3) {
     left: 22%;
     animation-delay: 5s;
-    font-size: 1.0rem;
+    font-size: 1.4rem;
 }
 
 .math-symbol:nth-child(4) {
     left: 33%;
     animation-delay: 1s;
-    font-size: 2.0rem;
+    font-size: 2.4rem;
 }
 
 .math-symbol:nth-child(5) {
     left: 45%;
     animation-delay: 7s;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
 
 .math-symbol:nth-child(6) {
     left: 55%;
     animation-delay: 3s;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
 }
 
 .math-symbol:nth-child(7) {
     left: 65%;
     animation-delay: 9s;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .math-symbol:nth-child(8) {
     left: 75%;
     animation-delay: 4s;
-    font-size: 1.9rem;
+    font-size: 2.3rem;
 }
 
 .math-symbol:nth-child(9) {
     left: 85%;
     animation-delay: 6s;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 .math-symbol:nth-child(10) {
     left: 92%;
     animation-delay: 8s;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 @keyframes floatUp {
@@ -95,11 +96,11 @@
     }
 
     10% {
-        opacity: 0.07;
+        opacity: 0.18;
     }
 
     90% {
-        opacity: 0.07;
+        opacity: 0.18;
     }
 
     100% {
