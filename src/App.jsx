@@ -7,6 +7,8 @@ import CP from './Components/CP'
 import Projects from './Components/Projects'
 import Contacts from './Components/Contacts'
 import Footer from './Components/Footer'
+import MathBackground from './Components/MathBackground'
+import ThemeToggle from './Components/ThemeToggle'
 
 function App() {
   const [theme, setTheme] = useState('dark')
@@ -18,16 +20,20 @@ function App() {
   }
 
   return (
-    <div>
-      <Navbar toggleTheme={toggleTheme} theme={theme} />
-      <Hero />
-      <About />
-      <Skills />
-      <CP />
-      <Projects />
-      <Contacts />
-      <Footer />
-    </div>
+    <>
+      <MathBackground />
+      <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <Navbar toggleTheme={toggleTheme} theme={theme} />
+        <Hero />
+        <About />
+        <Skills />
+        <CP />
+        <Projects />
+        <Contacts />
+        <Footer />
+      </div>
+    </>
   )
 }
 

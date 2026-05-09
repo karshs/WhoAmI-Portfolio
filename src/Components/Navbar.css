@@ -62,19 +62,3 @@
     background: var(--accent);
     color: var(--bg);
 }
-
-.theme-toggle {
-    background: none;
-    border: 1px solid var(--border);
-    color: var(--text-muted);
-    cursor: pointer;
-    padding: 0.35rem 0.6rem;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    transition: border-color 0.2s, color 0.2s;
-}
-
-.theme-toggle:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-}

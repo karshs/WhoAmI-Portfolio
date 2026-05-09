@@ -1,0 +1,50 @@
+/* Fixed layer — covers the entire page, sits behind all content */
+.math-bg-global {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.math-symbol-global {
+    position: absolute;
+    font-family: var(--font-mono);
+    color: var(--accent);
+    opacity: 0;
+    user-select: none;
+    will-change: transform, opacity;
+    text-shadow: 0 0 16px rgba(168, 255, 120, 0.4);
+    animation: mathFloat linear infinite;
+}
+
+@keyframes mathFloat {
+    0% {
+        transform: translateY(105vh) rotate(0deg);
+        opacity: 0;
+    }
+
+    8% {
+        opacity: 0.22;
+    }
+
+    /* slight horizontal drift mid-flight for randomness */
+    40% {
+        transform: translateY(60vh) rotate(8deg);
+        opacity: 0.22;
+    }
+
+    70% {
+        transform: translateY(30vh) rotate(-5deg);
+        opacity: 0.22;
+    }
+
+    92% {
+        opacity: 0.22;
+    }
+
+    100% {
+        transform: translateY(-8vh) rotate(4deg);
+        opacity: 0;
+    }
+}

@@ -8,12 +8,12 @@
   /* Subtler border so it doesn't stand out */
   --text: #ffffff;
   /* Pure white text for higher contrast */
-  --text-muted: #555555;
-  /* Dimmer muted text */
+  --text-muted: #888888;
+  /* Visible muted text — readable without competing with white */
   --accent: #a8ff78;
   /* Your lime green looks great on pure black */
   --font-mono: 'JetBrains Mono', monospace;
-  --font-main: 'Syne', sans-serif;
+  --font-main: 'Inter', sans-serif;
 }
 
 [data-theme="light"] {
@@ -71,7 +71,7 @@ section {
   font-size: 2.2rem;
   font-weight: 800;
   margin-bottom: 1rem;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
 }
 
 .divider {

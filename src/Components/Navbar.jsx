@@ -12,14 +12,9 @@ function Navbar({ toggleTheme, theme }) {
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#contact">contact</a></li>
                 <li>
-                    <a href="stilldre" target="_blank" rel="noreferrer">
+                    <a href="https://drive.google.com/file/d/1L6X_-EE5eOOI7GAsaZQKZLoSyOBCnj2R/view?usp=sharing" target="_blank" rel="noreferrer">
                         <button className="btn-resume">resume ↗</button>
                     </a>
-                </li>
-                <li>
-                    <button className="theme-toggle" onClick={toggleTheme}>
-                        {theme === 'dark' ? '☀' : '☾'}
-                    </button>
                 </li>
             </ul>
         </nav>

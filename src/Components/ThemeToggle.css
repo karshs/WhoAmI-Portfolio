@@ -1,0 +1,122 @@
+/* Fixed position — top right, just below navbar */
+.theme-toggle-float {
+    position: fixed;
+    top: 5rem;
+    right: 2rem;
+    z-index: 99;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.85rem 0.75rem;
+    cursor: pointer;
+    color: var(--text-muted);
+
+    transition: border-color 0.25s, color 0.25s, box-shadow 0.25s, transform 0.2s;
+}
+
+.theme-toggle-float:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    box-shadow: 0 0 18px rgba(168, 255, 120, 0.15);
+    transform: translateY(-2px);
+}
+
+/* ── Icon wrapper ── */
+.toggle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+}
+
+/* ── Moon animation: twinkle the stars ── */
+.icon-moon {
+    color: inherit;
+}
+
+.moon-star {
+    transform-origin: center;
+    animation: twinkle 2.4s ease-in-out infinite;
+}
+
+.moon-star-1 {
+    animation-delay: 0s;
+}
+
+.moon-star-2 {
+    animation-delay: 0.8s;
+}
+
+.moon-star-3 {
+    animation-delay: 1.6s;
+}
+
+@keyframes twinkle {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.2;
+        transform: scale(0.5);
+    }
+}
+
+/* ── Sun animation: spin the rays ── */
+.icon-sun {
+    color: inherit;
+}
+
+.sun-rays {
+    transform-origin: 12px 12px;
+    animation: spinRays 6s linear infinite;
+}
+
+@keyframes spinRays {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ── Tooltip — slides out horizontally to the left ── */
+.theme-toggle-float {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+}
+
+.toggle-tooltip {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+    white-space: nowrap;
+    writing-mode: horizontal-tb;
+    transform: none;
+
+    max-width: 0;
+    overflow: hidden;
+    opacity: 0;
+    margin-right: 0;
+    transition: max-width 0.35s ease, opacity 0.3s ease, margin-right 0.35s ease;
+}
+
+.theme-toggle-float:hover .toggle-tooltip {
+    max-width: 200px;
+    opacity: 1;
+    margin-right: 0.6rem;
+}

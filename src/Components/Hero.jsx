@@ -4,19 +4,6 @@ function Hero() {
     return (
         <section id="hero">
 
-            <div className="math-bg">
-                <span className="math-symbol">∑</span>
-                <span className="math-symbol">∫</span>
-                <span className="math-symbol">π</span>
-                <span className="math-symbol">Δ</span>
-                <span className="math-symbol">∞</span>
-                <span className="math-symbol">√</span>
-                <span className="math-symbol">∂</span>
-                <span className="math-symbol">λ</span>
-                <span className="math-symbol">θ</span>
-                <span className="math-symbol">∇</span>
-            </div>
-
             <div className="hero-content">
                 <p className="hero-greeting">// Hey there , myself </p>
                 <h1 className="hero-name">Utkarsh</h1>
