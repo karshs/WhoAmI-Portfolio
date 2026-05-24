@@ -1,28 +1,32 @@
 /* VARIABLES */
 :root {
-  --bg: #000000;
-  /* Pitch Black */
-  --bg-card: #080808;
-  /* Extremely dark grey, almost black */
-  --border: #1a1a1a;
-  /* Subtler border so it doesn't stand out */
+  --bg: #030014;
+  /* Very deep indigo-black */
+  --bg-card: #0a071d;
+  /* Dark purple-grey card */
+  --border: #1e1b38;
+  /* Dark violet border */
   --text: #ffffff;
   /* Pure white text for higher contrast */
-  --text-muted: #888888;
-  /* Visible muted text — readable without competing with white */
-  --accent: #a8ff78;
-  /* Your lime green looks great on pure black */
+  --text-muted: #8e8a9f;
+  /* Soft violet-muted text */
+  --accent-rgb: 167, 139, 250;
+  /* #a78bfa (Soft Purple) */
+  --accent: rgb(var(--accent-rgb));
   --font-mono: 'JetBrains Mono', monospace;
   --font-main: 'Inter', sans-serif;
 }
 
 [data-theme="light"] {
-  --bg: #f5f5f0;
+  --bg: #faf9ff;
+  /* Soft lavender-white background */
   --bg-card: #ffffff;
-  --border: #e0e0d8;
-  --text: #1a1a1a;
-  --text-muted: #888888;
-  --accent: #2d7a2d;
+  --border: #e4e2ee;
+  --text: #1f1c2c;
+  --text-muted: #7a758d;
+  --accent-rgb: 124, 58, 237;
+  /* #7c3aed (Deep Violet) */
+  --accent: rgb(var(--accent-rgb));
 }
 
 /* RESET */

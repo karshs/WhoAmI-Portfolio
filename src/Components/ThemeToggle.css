@@ -23,7 +23,7 @@
 .theme-toggle-float:hover {
     border-color: var(--accent);
     color: var(--accent);
-    box-shadow: 0 0 18px rgba(168, 255, 120, 0.15);
+    box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.15);
     transform: translateY(-2px);
 }
 

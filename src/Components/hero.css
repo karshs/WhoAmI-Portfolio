@@ -26,7 +26,7 @@
     font-size: 1.4rem;
     animation: floatUp 12s linear infinite;
     user-select: none;
-    text-shadow: 0 0 12px rgba(168, 255, 120, 0.35);
+    text-shadow: 0 0 12px rgba(var(--accent-rgb), 0.35);
 }
 
 .math-symbol:nth-child(1) {
@@ -216,7 +216,7 @@
 .profile-bar:hover {
     border-color: var(--accent);
     color: var(--accent);
-    background: rgba(168, 255, 120, 0.04);
+    background: rgba(var(--accent-rgb), 0.04);
     transform: translateY(-2px);
 }
 
