@@ -1,5 +1,6 @@
 import './Projects.css'
 import previewProject1 from '../assets/preview-project1.png'
+import matchMakerDashboard from '../assets/matchMakerDashboard.png'
 
 const projects = [
     {
@@ -9,6 +10,14 @@ const projects = [
         github: 'https://github.com/karshs/Hermes-RTB',
         live: 'https://hermes-rtb.onrender.com/',
         preview: previewProject1,
+    },
+    {
+        title: 'MatchMaker Arcade',
+        desc: 'Matrimonial CRM with Advanced Match Discovery. Features a 100-point rule-based engine and OpenAI GPT-4o integration for compatibility insights, backed by a serverless PostgreSQL schema.',
+        tags: ['React', 'Node.js', 'PostgreSQL', 'OpenAI', 'JWT', 'Tailwind CSS'],
+        github: 'https://github.com/karshs/MatchMaker-Arcade',
+        live: 'https://match-maker-arcade.vercel.app/',
+        preview: matchMakerDashboard,
     },
 ]
 

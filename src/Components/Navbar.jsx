@@ -11,11 +11,6 @@ function Navbar({ toggleTheme, theme }) {
                 <li><a href="#cp">cp</a></li>
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#contact">contact</a></li>
-                <li>
-                    <a href="https://drive.google.com/file/d/1L6X_-EE5eOOI7GAsaZQKZLoSyOBCnj2R/view?usp=sharing" target="_blank" rel="noreferrer">
-                        <button className="btn-resume">resume ↗</button>
-                    </a>
-                </li>
             </ul>
         </nav>
     )

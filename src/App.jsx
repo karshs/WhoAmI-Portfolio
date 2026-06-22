@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Navbar from './Components/Navbar'
 import Hero from './Components/Hero'
 import About from './Components/About'
@@ -11,7 +11,11 @@ import MathBackground from './Components/MathBackground'
 import ThemeToggle from './Components/ThemeToggle'
 
 function App() {
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useState('light')
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme)
+  }, [])
 
   function toggleTheme() {
     const newTheme = theme === 'dark' ? 'light' : 'dark'
