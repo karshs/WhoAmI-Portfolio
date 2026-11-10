@@ -1,32 +1,42 @@
 /* VARIABLES */
 :root {
-  --bg: #030014;
-  /* Very deep indigo-black */
-  --bg-card: #0a071d;
-  /* Dark purple-grey card */
-  --border: #1e1b38;
-  /* Dark violet border */
-  --text: #ffffff;
-  /* Pure white text for higher contrast */
-  --text-muted: #8e8a9f;
-  /* Soft violet-muted text */
-  --accent-rgb: 167, 139, 250;
-  /* #a78bfa (Soft Purple) */
-  --accent: rgb(var(--accent-rgb));
+  /* Default: Warm Alabaster & Charcoal Light Theme */
+  --bg: #EAE9E5;
+  --bg-card: #F4F3F0;
+  --border: #D8D6CE;
+  --text: #2F2E2C;
+  --text-muted: #6F6E6A;
+  --accent-rgb: 47, 46, 44;
+  --accent: #2F2E2C;
+  --hero-circle-bg: #DFDDD8;
+  --math-color: #2F2E2C;
   --font-mono: 'JetBrains Mono', monospace;
   --font-main: 'Inter', sans-serif;
 }
 
+[data-theme="dark"] {
+  /* Warm Charcoal Dark Theme */
+  --bg: #1B1A18;
+  --bg-card: #252422;
+  --border: #383632;
+  --text: #EAE9E5;
+  --text-muted: #A3A19B;
+  --accent-rgb: 234, 233, 229;
+  --accent: #EAE9E5;
+  --hero-circle-bg: rgba(234, 233, 229, 0.05);
+  --math-color: #EAE9E5;
+}
+
 [data-theme="light"] {
-  --bg: #faf9ff;
-  /* Soft lavender-white background */
-  --bg-card: #ffffff;
-  --border: #e4e2ee;
-  --text: #1f1c2c;
-  --text-muted: #7a758d;
-  --accent-rgb: 124, 58, 237;
-  /* #7c3aed (Deep Violet) */
-  --accent: rgb(var(--accent-rgb));
+  --bg: #EAE9E5;
+  --bg-card: #F4F3F0;
+  --border: #D8D6CE;
+  --text: #2F2E2C;
+  --text-muted: #6F6E6A;
+  --accent-rgb: 47, 46, 44;
+  --accent: #2F2E2C;
+  --hero-circle-bg: #DFDDD8;
+  --math-color: #2F2E2C;
 }
 
 /* RESET */

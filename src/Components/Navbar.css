@@ -4,21 +4,22 @@
     left: 0;
     width: 100%;
     z-index: 100;
-    padding: 1rem 2rem;
+    padding: 1.1rem 2.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: var(--bg);
     border-bottom: 1px solid var(--border);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .nav-logo {
-    font-family: var(--font-mono);
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--accent);
-    letter-spacing: 0.05em;
+    font-family: var(--font-main);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text);
+    letter-spacing: -0.01em;
     text-decoration: none;
     transition: opacity 0.2s;
 }
@@ -35,15 +36,16 @@
 }
 
 .nav-links a {
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    font-weight: 500;
     color: var(--text-muted);
     transition: color 0.2s;
-    letter-spacing: 0.05em;
+    letter-spacing: -0.01em;
 }
 
 .nav-links a:hover {
-    color: var(--accent);
+    color: var(--text);
 }
 
 .btn-resume {

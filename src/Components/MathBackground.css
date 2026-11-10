@@ -10,11 +10,10 @@
 .math-symbol-global {
     position: absolute;
     font-family: var(--font-mono);
-    color: var(--accent);
+    color: var(--math-color);
     opacity: 0;
     user-select: none;
     will-change: transform, opacity;
-    text-shadow: 0 0 16px rgba(var(--accent-rgb), 0.4);
     animation: mathFloat linear infinite;
 }
 
@@ -25,22 +24,22 @@
     }
 
     8% {
-        opacity: 0.22;
+        opacity: 0.18;
     }
 
     /* slight horizontal drift mid-flight for randomness */
     40% {
         transform: translateY(60vh) rotate(8deg);
-        opacity: 0.22;
+        opacity: 0.18;
     }
 
     70% {
         transform: translateY(30vh) rotate(-5deg);
-        opacity: 0.22;
+        opacity: 0.18;
     }
 
     92% {
-        opacity: 0.22;
+        opacity: 0.18;
     }
 
     100% {

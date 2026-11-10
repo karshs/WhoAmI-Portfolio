@@ -21,9 +21,9 @@
 }
 
 .theme-toggle-float:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-    box-shadow: 0 0 18px rgba(var(--accent-rgb), 0.15);
+    border-color: var(--text);
+    color: var(--text);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
     transform: translateY(-2px);
 }
 
@@ -100,10 +100,11 @@
 }
 
 .toggle-tooltip {
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.04em;
-    color: var(--accent);
+    font-family: var(--font-main);
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--text);
     white-space: nowrap;
     writing-mode: horizontal-tb;
     transform: none;

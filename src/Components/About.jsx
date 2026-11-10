@@ -10,8 +10,8 @@ function About() {
             <div className="about-text">
                 <p>
                     Hi! I'm <strong>Utkarsh </strong>, a passionate{' '}
-                    <strong>competitive programmer</strong> and{' '}
-                    <strong>backend developer</strong> based in Vadodara, India.
+                    <strong>backend developer</strong> and{' '}
+                    <strong>Systems Engineer</strong> based in Vadodara, India.
                 </p>
                 <p>
                     I've been fascinated by mathematics and problem solving since
