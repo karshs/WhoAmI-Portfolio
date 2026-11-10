@@ -1,18 +1,25 @@
 footer {
-    border-top: 1px solid var(--border);
-    padding: 2.5rem 2rem;
+    border-top: 2px dotted rgba(47, 46, 44, 0.35);
+    padding: 3rem 2rem;
     text-align: center;
-    font-family: var(--font-mono);
-    font-size: 0.78rem;
+    font-family: var(--font-main);
+    font-size: 0.85rem;
     color: var(--text-muted);
+    transition: border-color 0.3s ease;
+}
+
+[data-theme="dark"] footer {
+    border-top-color: rgba(234, 233, 229, 0.3);
 }
 
 .footer-heart {
-    color: var(--accent);
+    color: var(--text);
+    display: inline-block;
+    margin: 0 2px;
 }
 
 .footer-sub {
-    margin-top: 0.4rem;
-    font-size: 0.7rem;
-    opacity: 0.5;
+    margin-top: 0.45rem;
+    font-size: 0.78rem;
+    opacity: 0.7;
 }
